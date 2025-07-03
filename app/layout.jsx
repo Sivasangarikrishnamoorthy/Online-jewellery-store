@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <base href="/Online-jewellery-store/" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="generator" content={metadata.generator} />

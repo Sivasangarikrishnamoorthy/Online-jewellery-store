@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-}
+  output: 'export',
+  basePath: '/Online-jewellery-store',
+  assetPrefix: '/Online-jewellery-store',
+};
 
-export default nextConfig
+export default nextConfig;
